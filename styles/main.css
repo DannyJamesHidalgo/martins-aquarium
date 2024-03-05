@@ -1,0 +1,156 @@
+/* .section_container {
+    display: inline-flex
+
+} */
+
+body {
+
+    background-color: aqua;
+}
+
+
+#title {
+    text-align: center;
+    font-family: copperplate;
+    font-size: 5em;
+    margin-top: 1rem;
+}
+
+.website__Containers {
+
+    display: flex;
+    justify-content:space-evenly;
+   
+    
+}
+
+ .all__Tips_Harvest {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1em;
+   
+   
+    
+}
+
+.ALL__current-fish {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin:5px;
+    background-color: coral;
+
+    
+}
+
+.FishList {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+    justify-content: space-evenly;
+    line-height: 1em;
+  
+    
+    padding: 5px;
+    
+}
+
+
+.fish__card {
+    background-color: lightskyblue;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: rgb(255, 241, 138);
+    flex-basis: 20%;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:5px;
+    line-height: 100%;
+   
+    
+
+}
+
+.fish__image {
+    display: block;
+    margin:  0 auto;
+    padding: 5px;
+    width: 10em;
+    height:100%;
+    border-radius: 1em;
+    align-self: center;
+   
+
+    
+}
+
+
+.fish__name {
+    font-size: .5em;
+   text-align:center;
+
+}
+
+.card__text{
+border: solid;
+border-color: rgb(12, 12, 12);
+border-width: 4px;
+text-align: center;
+font-size:auto;
+padding:5px ;
+line-height: 100%;
+}
+
+.location__list {
+
+    text-align: center;
+    padding:20px;
+    background-color: gold;
+
+
+}
+
+.ALL__Locations{
+
+    background-color: gold;
+}
+
+#TravelTips__header {   
+     text-align: center;
+     border:  2px dotted;
+     border-width: 3px;
+
+}
+#harvest__header {
+    text-align: center;
+    border:  2px dotted;
+    border-width: 3px;
+
+
+
+}
+
+
+#careTips__header {
+    text-align: center;
+    border:  2px dotted;
+     border-width: 3px;
+
+
+
+
+}
+
+.Care_tips {
+
+    background-color: lightpink;
+}
+
+.ALL__Tips { background-color: lightgreen;
+
+
+
+}
